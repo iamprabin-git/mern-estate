@@ -11,6 +11,10 @@ import UpdateListing from './pages/UpdateListing';
 import Listing from './pages/Listing';
 import Search from './pages/Search';
 import Footer from './components/Footer';
+import Social from './pages/Social';
+import Policy from './pages/Policy';
+import Terms from './pages/Terms';
+import Advertisement from './components/Advertisement';
 
 export default function App() {
   return (
@@ -23,6 +27,9 @@ export default function App() {
         <Route path='/about' element={<About />} />
         <Route path='/search' element={<Search />} />
         <Route path='/listing/:listingId' element={<Listing />} />
+        <Route path='/social-media' element={<Social/>} />
+        <Route path='/privacy-policy' element={<Policy/>} />
+        <Route path='/terms-and-conditions' element={<Terms/>} />
 
         <Route element={<PrivateRoute />}>
           <Route path='/profile' element={<Profile />} />
@@ -33,6 +40,7 @@ export default function App() {
           />
         </Route>
       </Routes>
+      <Advertisement/>
       <Footer />
     </BrowserRouter>
   );

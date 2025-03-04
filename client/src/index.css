@@ -5,3 +5,22 @@
 body{
     background-color: rgb(241,245,241);
 }
+
+footer{
+padding: 10px;
+margin-left: 5px;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+h2{
+    font-size: large;
+    font-weight: bold;
+    
+}
