@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-600 text-white py-8">
+    <footer className="bg-slate-700 text-white py-8">
       <div className="container mx-auto grid grid-cols-1 
             md:grid-cols-4 gap-8 w-11/12">
 
@@ -32,7 +32,7 @@ export default function Footer() {
               <FaInstagram className="text-white text-2xl
                             hover:text-gray-300" />
             </a>
-            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftiktok.com%2F%40lele.sasto.gharja%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR0VSs8K35ZpcXMngluQaJm0AhIOK3VeBwk9Ch6VrelkHc-v0LyvzsWnN-0_aem_TUDavzc_B1vLwM9MspanrA&h=AT23vPCA5YpfbDeYuqOIJHLxoDwcVhZylR3P0mIxx6WvzGmfCj8YOkQZexRDMz-LBoAJ1ebCQukZETUdNsUVNThtmE0CewBebXlnmXLvZhMdr-aqRPxDXwx53yMhiOuP4e1t" target="_blank"
+            <a href="https://www.tiktok.com/@lelesastogharjagga100?_t=ZS-8uOJSX2Ficc&_r=1" target="_blank"
               rel="noopener noreferrer">
               <FaTiktok className="text-white text-2xl
                             hover:text-gray-300" />

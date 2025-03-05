@@ -15,6 +15,7 @@ import Social from './pages/Social';
 import Policy from './pages/Policy';
 import Terms from './pages/Terms';
 import Advertisement from './components/Advertisement';
+import  Company from './pages/Company';
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path='/sign-in' element={<SignIn />} />
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/about' element={<About />} />
+        <Route path='/company-profile' element={<Company/>} />
         <Route path='/search' element={<Search />} />
         <Route path='/listing/:listingId' element={<Listing />} />
         <Route path='/social-media' element={<Social/>} />

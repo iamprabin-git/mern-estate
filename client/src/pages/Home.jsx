@@ -5,6 +5,7 @@ import { Navigation } from 'swiper/modules';
 import SwiperCore from 'swiper';
 import 'swiper/css/bundle';
 import ListingItem from '../components/ListingItem';
+import post from "../assets/Image/post.png"
 
 export default function Home() {
   const [offerListings, setOfferListings] = useState([]);
@@ -55,10 +56,8 @@ export default function Home() {
           place with ease
         </h1>
         <div className='text-gray-400 text-xs sm:text-sm'>
-          Lele Sasto Ghar Jagga Karobar Kendra is the best place to find your next perfect place to
-          live.
-          <br />
-          We have a wide range of properties for you to choose from.
+          <img src={post} alt="post img" className='h-100 w-300'/>
+        
         </div>
         <Link
           to={'/search'}

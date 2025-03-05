@@ -1,8 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+ 
+
 export default function About() {
   return (
+    
     <div className='py-20 px-4 max-w-6xl mx-auto'>
       <h1 className='text-3xl font-bold mb-4 text-slate-800'>About Us</h1>
       <p className='mb-4 text-slate-700'>Lele Sasto Ghar jagga karobar kendra establish as the complete Ghar Jagga solution. We are local estate agency in lele, lalitpur helping property owners, developers & agents for smooth transitions of selling, renting & management of their properties. </p>
@@ -13,5 +16,6 @@ export default function About() {
       <p className='mb-4 text-slate-700'>To be the best, we will serve our customers and clients by delivering on our commitments made before, during and after every transaction.</p>
       <Link to="https://lelesastogharjagga.com.np">Visit: https://lelesastogharjagga.com.np</Link>
     </div>
+    
   )
 }
