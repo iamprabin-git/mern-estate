@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/leleagri/lelesastogharjagga.com.np
+    - export DEPLOYPATH=/home/leleagri/repositories/mern-estate
     - /bin/cp * $DEPLOYPATH
   
