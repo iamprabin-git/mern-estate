@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/leleag...m.np/account
+    - /bin/cp * $DEPLOYPATH
+  
